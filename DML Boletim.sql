@@ -6,10 +6,10 @@ USE boletim
 
 INSERT INTO Aluno (Nome, RA, Idade) VALUES ('Edu','RA1313433',16); 
 --INSERT INTO Aluno (Nome, RA, Idade) VALUES ('RA1313413','Caua',16); Pode-se inverter a ordem
-INSERT INTO Materia (Titulo) VALUES ('Matem�tica');
-INSERT INTO Materia (Titulo) VALUES ('Portugu�s');
+INSERT INTO Materia (Titulo) VALUES ('Matematica');
+INSERT INTO Materia (Titulo) VALUES ('Portugues');
 INSERT INTO Trabalho (Nota, DataEntrega, IdAluno, IdMateria) VALUES (8.6, '2020-08-05T23:59:59', 1,2)
-INSERT INTO Trabalho (Nota, DataEntrega, IdAluno, IdMateria) VALUES (8.6, '2020-08-05T23:59:59', 2,1)
+INSERT INTO Trabalho (Nota, DataEntrega, IdAluno, IdMateria) VALUES (8.6, '2020-08-01T23:59:59', 2,1)
 
 
 -- UPDATE - Alterar 
